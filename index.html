@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 data-source="name-storage"></h1>
+    <h1>Welcome to the Mario and Luigi fanbase!</h1>
+    <p>Please fill in the boxes with your information below to register and join the Mario and Luigi fan club.</p>
+
+    <div class="img-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGBNG-zvMnmwpCeRFdiD5pcgZ4oscF-2jgA&s" alt="Here's a cute picture of Mario and Luigi hugging."></div>
+
+    <div class="form-container">
+    <form id="formRegistration">
+        <label for="name">Please enter your First and Last name: </label>
+        <input type="text" id="name" name="name">
+        <span class="error" id="nameError"></span>
+        <br>
+        <br>
+
+        <label for="email">Please enter your email address: </label>
+        <input type="email" id="email" name="email">
+        <span class="error" id="emailError"></span>
+        <br>
+        <br>
+
+        <label for="confirmEmail">Please confirm your email address: </label>
+        <input type="email" id="confirmEmail" name="confirmEmail">
+        <span class="error" id="confirmEmailError"></span>
+        <br>
+        <br>
+
+        <label for="username">Please create a username for your account: </label>
+        <input type="text" id="username" name="username">
+        <span class="error" id="usernameError"></span>
+        <br>
+        <br>
+
+        <label for="password">Please create a password:</label>
+        <input type="password" id="password" name="password">
+        <span class="error" id="passwordError"></span>
+        <br>
+        <br>
+
+        <label for="confirmPassword">Please confirm your passowrd: </label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <span class="error" id="confirmPasswordError"></span>
+        <br>
+        <br>
+
+        <div class="flex-container">
+            <div class="flex-item"><input type="submit"></input></div>
+            <div class="flex-item"><input id="clear-btn" type="reset"></input></div>
+            <button id="save-btn">Save Info</button>
+        </div>
+    </form>
+    <p id="successMessage" class="success"></p>
+    <p id="display-name" class="save"></p>
+    <p id="clear"></p>
+
+    </div>
+    <div class="flex-footer">
+        <footer>Thank you for registering. For more information, please email abcdefg123@gmail.com(not a real email) or call 123-456-7890</footer>
+    </div>
+</body>
+</html>

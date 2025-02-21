@@ -1,0 +1,115 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(233, 21, 21);
+    padding: 20px;
+}
+
+head{
+    font-size: larger;
+    font-weight: 100px;
+    text-align: center;
+}
+
+form{
+    background-color: rgb(43, 161, 82);
+    padding: 20px;
+    border: 10px, solid #484bee;
+    border-radius: 30px;
+    width: 600px;
+    margin: 0, auto;
+    text-align: center;
+    box-align: center;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: rgb(161, 98, 26);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(121, 177, 49);
+    transform: scale(1.04);
+}
+
+input[type="reset"]{
+    background-color: rgb(161, 98, 26);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(121, 177, 49);
+    transform: scale(1.04);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.flex-item{
+    padding: 20px;
+    width: 50px 100%;
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    color: rgb(1, 1, 26);
+}
+
+h1{
+    text-align: center;
+    color: rgb(5, 5, 32);
+}
+
+p{
+    text-align: center;
+    color: rgb(6, 27, 27);
+    font-size: large;
+}
+
+h2{
+    text-align: center;
+    color: rgb(52, 153, 194);
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(6, 43, 65);
+}
